@@ -1,4 +1,4 @@
-# Repo-Proyecto-5
+
 “Repository containing a Data Analysis project with Pandas and included visualizations with Matplotlib, hypothesis resolution and variation values with Stats Library.”
 
 Trabajo como analista para el operador de telecomunicaciones Megaline. La empresa ofrece a sus clientes dos tarifas de prepago, Surf y Ultimate. El departamento comercial quiere saber cuál de las tarifas genera más ingresos para poder ajustar el presupuesto de publicidad.
