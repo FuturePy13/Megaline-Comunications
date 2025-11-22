@@ -1,6 +1,67 @@
+**Análisis Comparativo de Tarifas Prepagas para el Operador Megaline**
 
-“Repository containing a Data Analysis project with Pandas and included visualizations with Matplotlib, hypothesis resolution and variation values with Stats Library.”
+**Objetivo del proyecto**
+Determinar cuál de las dos tarifas prepago —Surf o Ultimate— genera mayores ingresos para Megaline.
+El análisis ayuda al departamento comercial a optimizar el presupuesto de publicidad, enfocándose en la tarifa más rentable.
 
-Trabajo como analista para el operador de telecomunicaciones Megaline. La empresa ofrece a sus clientes dos tarifas de prepago, Surf y Ultimate. El departamento comercial quiere saber cuál de las tarifas genera más ingresos para poder ajustar el presupuesto de publicidad.
+**Tecnologías utilizadas:**
 
-Análisis preliminar de las tarifas basado en una selección de clientes relativamente pequeña. Tendrás los datos de 500 clientes de Megaline: quiénes son los clientes, de dónde son, qué tarifa usan, así como la cantidad de llamadas que hicieron y los mensajes de texto que enviaron en 2018. Tu trabajo es analizar el comportamiento de los clientes y determinar qué tarifa de prepago genera más ingresos.
+* Python
+
+* Pandas
+
+* NumPy
+
+* Matplotlib
+
+* SciPy / Stats Library (para hipótesis y variaciones)
+
+* SQL para exploración o consultas iniciales de los datos
+
+**Metodología de trabajo**
+
+1. Limpieza de datos
+
+* Corrección de tipos de datos
+
+* Tratamiento de valores faltantes
+
+* Cálculo de ingresos mensuales por usuario
+
+* Normalización de duraciones y mensajes agrupados por mes
+
+2. Análisis Exploratorio (EDA)
+
+* Distribución de llamadas y mensajes por tarifa
+
+* Comparación de consumo entre Surf y Ultimate
+
+* Visualizaciones con Matplotlib
+
+* Identificación de valores atípicos y patrones de uso
+
+3. Análisis Estadístico
+
+* Pruebas de hipótesis para comparar:
+
+* Ingresos medios por usuario en cada tarifa
+
+* Cantidad de llamadas y mensajes
+
+Cálculo de valores de variación y significancia estadística
+
+4. Evaluación
+
+* Confirmación de si la diferencia en ingresos es real o simplemente aleatoria
+
+* Revisión del comportamiento de cada segmento de usuarios
+
+**Resultados e insights clave**
+
+* Se identificó cuál de las dos tarifas genera ingresos significativamente mayores.
+
+* Los usuarios de una tarifa mostraron mayor consumo en llamadas y mensajes, impactando directamente en la rentabilidad.
+
+* La diferencia entre tarifas fue estadísticamente significativa, lo que permite tomar decisiones de negocio con mayor confianza.
+
+* Se generaron visualizaciones que facilitaron identificar el perfil típico de cada tipo de cliente.
